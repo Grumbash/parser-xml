@@ -1,0 +1,17 @@
+{
+  "name": "node-xml",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "PATH_TO_FILE='CodeTest-XML.xml' node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mysql2": "^2.2.5",
+    "winston": "^3.3.3",
+    "xml2js": "^0.4.23"
+  }
+}
