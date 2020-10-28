@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "PATH_TO_FILE='CodeTest-XML.xml' node index.js"
+    "start": "PATH_TO_FILE='CodeTest-XML.xml' node index.js",
+    "test": "mocha app.test.js"
   },
   "keywords": [],
   "author": "",
@@ -13,5 +14,10 @@
     "mysql2": "^2.2.5",
     "winston": "^3.3.3",
     "xml2js": "^0.4.23"
+  },
+  "devDependencies": {
+    "mocha": "^8.2.0",
+    "request": "^2.88.2",
+    "sinon": "^9.2.0"
   }
 }
